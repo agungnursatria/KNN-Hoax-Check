@@ -1,8 +1,8 @@
 # KNN-Hoax-Check
-1.	Deskripsi Masalah
+#1.	Deskripsi Masalah
 Dalam menentukan keputusan untuk memilih satu atau beberapa objek terdekat dari suatu tempat maka dibutuhkan informasi mengenai jarak dari suatu titik ke beberapa alternatif tempat pilihan tersebut. Informasi jarak yang valid akan menuntun keputusan ke arah yang benar. Pada umumnya pencarian jarak terdekat dilakukan dengan menggunakan pengukuran euclidean distance, namun pada kenyataannya sebuah objek di dunia nyata hanya bisa dicapai melalui jalan yang menghubungkannya dengan objek lainnya, sehingga jarak yang valid untuk mendapatkan objek terdekat seharusnya adalah jarak jalan atau network distance, bukan euclidean distance.
 
-2.	Rancangan Metode
+#2.	Rancangan Metode
   Langkah-langkah:
   1.	Inisialisasi data train dan data test pada program
   2.	Tentukan jarak antara masing” data train dengan data test menggunakan euclidean atau manhattan distance
